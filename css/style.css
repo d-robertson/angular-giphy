@@ -1,0 +1,17 @@
+.well {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-right: 0;
+  border-color: #595241;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
+body {
+  background-color: #b8ae9c;
+
+}
