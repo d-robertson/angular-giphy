@@ -13,7 +13,7 @@ angular.module('GiphyApp', ['infinite-scroll'])
   function query(){
     $scope.busy = true;
 
-    $http.get('http://api.giphy.com/v1/stickers/search', {
+    $http.get('https://api.giphy.com/v1/stickers/search', {
       params: {
         api_key: 'dc6zaTOxFJmzC',
         q: $scope.search,
